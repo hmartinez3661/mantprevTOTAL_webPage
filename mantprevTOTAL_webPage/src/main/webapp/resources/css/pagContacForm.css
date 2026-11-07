@@ -1,0 +1,43 @@
+
+	@charset "ISO-8859-1";
+	
+	body {background-image: linear-gradient(to right, rgba(51, 133, 255, 0.76), white, rgba(54, 201, 66, 0.61));}    
+    
+	
+	.titulo01 {text-align: center; font-size: 100%; font-weight: bold; margin-bottom: 20px;} 
+	
+	
+	#marcoExterno {
+		background-color: #008ae6; 
+		border-style: groove; 
+		border-radius: 15px; 
+		padding: 15px;
+		box-shadow: 10px 10px #adad85;
+		margin-top: 20px; margin-bottom: 20px;}
+		
+	#marcoInterno {border-style: groove; border-radius: 15px; padding: 15px;}
+		
+	#tituloForm {text-align: center;}
+	
+	#separador {margin-top: 10px; margin-bottom: 5px;}
+	
+	#btnSubmit {padding-top: 10px;}
+	
+	.contenedor {
+	    height: 150px;
+	    line-height: 50px;
+	}
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+	    
+	    

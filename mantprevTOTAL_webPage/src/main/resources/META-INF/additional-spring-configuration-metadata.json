@@ -1,0 +1,20 @@
+{"properties": [
+  {
+    "name": "costo_plan_basico",
+    "type": "java.lang.String",
+    "description": "A description for 'costo_plan_basico'"
+  },
+
+  {
+    "name": "costo_plan_profes1",
+    "type": "java.lang.String",
+    "description": "A description for 'costo_plan_profes1'"
+  },
+
+  {
+    "name": "costo_plan_profes2",
+    "type": "java.lang.String",
+    "description": "A description for 'costo_plan_profes1'"
+  }
+  
+]}

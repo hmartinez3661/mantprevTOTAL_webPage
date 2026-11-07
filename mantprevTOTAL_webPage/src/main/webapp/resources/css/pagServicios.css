@@ -1,0 +1,143 @@
+
+@charset "ISO-8859-1";
+
+/*	
+	body{
+		 background-image: url(${urlResources}/images/PlantaIndustrial01.jpg);
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-position: center; 
+		 background-attachment: fixed;
+		 
+		 justify-content: center;
+		 align-items: center; }
+		 
+	body:before {
+		 content: "";
+		 width: 100%;
+		 height: 100%;
+		 background-color: #0066ff;
+		 position: absolute;
+		 opacity: 0.4; }
+*/	
+	
+	body {background-image: linear-gradient(to right, rgba(51, 133, 255, 0.76), white, rgba(54, 201, 66, 0.61));}
+    
+    .imgArticle {
+    	width:"100%"; 
+    	height:"60%";
+    	vertical-align: top;
+    	margin-top: 30px; 
+    	margin-bottom: 30px;
+    }
+    
+    #divContImg {
+    	width: 100%;
+    	height: 60%;
+    	position: relative;
+    	overflow: hidden;
+    }
+    
+    #imgPricipal{
+    	width: 100%;
+    	height: 100%;
+    }
+    
+    .divImg02 {text-align: center;}
+    
+    /*
+    .textoSobreImg {
+    	display: block;
+    	position: absolute;
+    	width: 55%;
+    	height: 20%;
+    	top: 70%;
+	    right: 5%;
+	    border: 10px solid rgba(0, 0, 0, 0.3);
+	    text-align: center;
+	    font-weight: bold;
+    	z-index: 10;
+    	background: rgba(0, 0, 0, 0.6);
+    	padding: 1.3vw;
+    	font-size: 2.2vw;
+    	color: #ffff33;
+    }  */
+	    
+	.titulo01 {text-align: center; text-shadow: 5px 5px 3px #999999;}  
+	
+	#separador {margin-top: 20px; margin-bottom: 20px;}
+	
+	hr {margin-top: 15px; margin-bottom: 15px;}
+	
+	li {font-size: 100%; width: 90%; margin: auto; padding-top: 20px; padding-bottom: 10px;}  
+	
+	.subTitulos {font-size: 115%; font-weight: bold; margin-top: 5px; text-align: center; text-shadow: 5px 5px 3px #999999;}
+	
+	p {font-size: 100%; width: 95%; margin: auto;}
+	
+	#link {color: #000000; text-shadow: 5px 5px 3px #999999;}
+
+	.infSopport1 {
+		background-image: linear-gradient(to right, rgba(191, 128, 255, 0.76), white);
+		box-shadow: 15px 15px 15px 0px grey;
+		border-radius: 50px 20px 80px 20px;
+		display: block;
+		margin: auto;
+		margin-top: 50px;
+		padding-top: 40px;
+		padding-bottom: 25px;
+		margin-bottom:60px;
+	}
+
+	.infSopport2 {
+		background-image: linear-gradient(to right, rgba(255, 255, 102, 0.76), white);
+		box-shadow: 15px 15px 15px 0px grey;
+		border-radius: 50px 20px 80px 20px;
+		display: block;
+		margin: auto;
+		padding-top: 20px;
+		padding-bottom: 15px;
+		margin-bottom:60px;
+	}
+
+	.marginInf {margin-bottom: 50px;}
+
+	.container-imgs {
+	    display: flex;
+	    margin-bottom: 20px;
+	}
+
+	.columImg {
+	    margin-left: auto;
+	  	margin-right: auto;
+    }
+    
+    .texIconos {margin-bottom: 50px;}
+
+	.col-sm-3 {
+	    text-align: center;
+    }
+
+	.txtSombra {text-shadow: 5px 5px 3px #999999;}
+	
+	.imgSupport {width: 150px; height: 150px;}  /* .columImg a >   */
+
+	@media screen and (max-width: 1000px) {
+        .titulo01 {font-size: 99%;}
+        p {font-size: 99%;}
+        ol {font-size: 80%;}
+        label {font-size: 80%;}
+        .imgSupport { width: 50px; height: 50px;}
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+	    
+	    

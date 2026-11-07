@@ -1,0 +1,133 @@
+
+
+@charset "ISO-8859-1";
+
+/*	
+	body{
+		 background-image: url(${urlResources}/images/PlantaIndustrial01.jpg);
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-position: center; 
+		 background-attachment: fixed;
+		 
+		 justify-content: center;
+		 align-items: center; }
+		 
+	body:before {
+		 content: "";
+		 width: 100%;
+		 height: 100%;
+		 background-color: #0066ff;
+		 position: absolute;
+		 opacity: 0.4; }
+	*/	
+	
+	
+	
+	body{background-image: linear-gradient(to right, rgba(51, 133, 255, 0.76), white, rgba(54, 201, 66, 0.61));}
+    
+    .imgArticle {
+    	width:"100%"; 
+    	height:"60%";
+    	vertical-align: top;
+    	margin-top: 30px; 
+    	margin-bottom: 30px;
+    }
+    
+    #divContImg {
+    	width: 100%;
+    	height: 60%;
+    	position: relative;
+    	overflow: hidden;
+    }
+    
+    #image01 {
+    	width: 100%;
+    	height: 100%;
+    }
+    
+    #imgPricipal{
+    	width: 100%;
+    	height: 100%;
+    }
+    
+    .divImg02 {text-align: center;}
+    
+    #imgImplem {
+    	width: 90%;
+    	height: 90%;
+    }
+    
+    /*
+    .textoSobreImg {
+    	display: block;
+    	position: absolute;
+    	width: 55%;
+    	height: 28%;
+    	top: 60%;
+	    right: 5%;
+	    border: 10px solid rgba(0, 0, 0, 0.3);
+	    text-align: center;
+	    font-weight: bold;
+    	z-index: 10;
+    	background: rgba(0, 0, 0, 0.6);
+    	padding: 1.1vw;
+    	font-size: 30px;
+    	color: #ffff00;
+    }  */
+	    
+	.titulo01 {width: 95%; margin: auto; text-shadow: 5px 5px 3px #999999; text-align: center; }
+	
+	.titulo02 {font-weight: bold;}
+	
+	#separador {margin-top: 20px; margin-bottom: 20px;}
+	
+	hr {margin-top: 15px; margin-bottom: 15px;}
+	
+	li {font-size: 120%; width: 90%; margin: auto; padding-top: 1vw;}   /*     padding-bottom: 10px;  */
+	
+	.subTitulos {
+		font-size: 120%; 
+		font-weight: bold; 
+		margin-top: 5px; 
+		text-align: center;
+		text-shadow: 5px 5px 3px #999999;}
+	
+	p {width: 95%; margin: auto; }
+
+	.infImplem {
+		background-image: linear-gradient(to right, rgba(255, 255, 102, 0.76), white);
+		box-shadow: 15px 15px 15px 0px grey;
+		border-radius: 50px 20px 80px 20px;
+		display: block;
+		margin: auto;
+		padding-top: 20px;
+		padding-bottom: 15px;
+		margin-bottom:60px;
+	}
+	
+	.listaOrd {font-size: 85%;}
+	
+	@media screen and (min-width: 1001px) {
+      .titulo02 {text-shadow: 5px 5px 3px #999999; }
+    }
+
+	@media screen and (max-width: 1000px) {
+        .titulo01 {font-size: 99%;}
+        .titulo02 {font-size: 99%;}
+        .listaOrd {font-size: 70%;}
+        label {font-size: 80%;}
+    }
+    
+    .imagen02{
+    	width: 100%;
+    	height: 100%;
+    }
+
+
+
+
+
+
+	    
+	    

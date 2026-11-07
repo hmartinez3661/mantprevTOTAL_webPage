@@ -1,0 +1,169 @@
+
+@charset "ISO-8859-1";
+	
+    *{
+	    margin: 0px;
+	    padding: 0px;
+	    box-sizing: border-box;
+	    font-family: sans-serif;
+	}
+	
+	footer{
+	    width: 100%;
+	    background: #202020;
+	    color: white; 
+	    margin-top: 30px;
+	}
+	
+	.lineaSup {height: 15px; background: #101010;}
+	
+	.container-footer-all{
+	    width: 100%;
+	    max-width: 1200px;
+	    margin: auto;
+	    padding-top: 15px;
+	}
+	
+	.container-body{
+	    display: flex;
+	    justify-content: space-between;
+	    padding-bottom: 10px;
+	}
+	
+	.colum1{
+	    max-width: 400px;
+	    padding-left: 15px;
+	}
+	
+	.colum1 h1{
+	    font-size: 22px;
+	}
+	
+	.colum1 p{
+	    font-size: 14px;
+	    color: #C7C7C7;
+	    margin-top: 10px;
+	    margin-left: 0px;
+	    padding-left: 0px;
+	}
+	
+	.rowC1{
+	    margin-top: 1px;
+	    display: flex;
+	}
+	
+	.rowC1 img{
+	    width: 51px;
+	    height: 40px;
+	}
+	
+	.colum2{
+	    max-width: 400px;
+	    padding-left: 30px;
+	}
+	
+	.colum2 h1{
+	    font-size: 22px;
+	}
+	
+	.row {
+	    margin-top: 20px;
+	    display: flex;
+	}
+	
+	.footer a {
+	    color: #C7C7C7;
+	}
+	
+	.colum2 .row .link {margin-left: 10px; padding-top: 7px; color: #C7C7C7; text-decoration: none;}
+	
+	.row label{
+	    margin-top: 5px;
+	    margin-left: 20px;
+	    color: #C7C7C7;
+	}
+	
+	.colum3{
+	    max-width: 400px;
+	    padding-left: 20px;
+	}
+	
+	.colum3 h1{
+	    font-size: 22px;
+	}
+	
+	.row2{
+	    margin-top: 10px;
+	    display: flex;
+	}
+	
+	.row2 img {
+	    width: 36px;
+	    height: 36px;
+	    margin-top: 10px;
+	}
+	
+	.row2 label {margin-left: 17px;}
+	
+	.colum3 .row2 .row {
+		padding-top: 2px;
+		margin-top: 2px;
+	    margin-left: 1px;
+	}
+	
+	.col-sm-10 a {color: #C7C7C7; text-decoration: none;}
+	
+	#lblWhatsApp {margin-top: 15px;}
+	
+	.container-footer{
+	    width: 100%;
+	    background: #101010;
+	}
+	
+	.footer{
+		    margin: auto;
+		    display: flex;
+		    padding: 7px;
+		}
+	
+	.copyright{
+	    color: #C7C7C7;
+	}
+	
+	.information a{
+	    text-decoration: none;
+	    color: #C7C7C7;
+	}
+	
+	
+	@media screen and (max-width: 1100px){
+	    
+	    .container-body{
+	        flex-wrap: wrap;
+	    }
+	    
+	    .colum1{
+	        max-width: 100%;
+	    }
+	    
+	    .colum2,
+	    .colum3{
+	        margin-top: 40px;
+	    }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

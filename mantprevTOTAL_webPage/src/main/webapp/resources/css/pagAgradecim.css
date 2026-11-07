@@ -1,0 +1,25 @@
+
+
+@charset "ISO-8859-1";
+
+	
+	body{background-image: linear-gradient(to right, rgba(51, 133, 255, 0.76), white, rgba(54, 201, 66, 0.61));}
+    
+    .margenTxt {width: 80%; margin: auto; }
+    
+    .titulo {text-align: center; text-shadow: 5px 5px 3px #999999; padding-top: 40px; padding-bottom: 10px; font-weight: bold;} 
+    
+    h5 {padding: 5px;}
+    
+    .informPago {width: 90%; margin: auto; }
+   
+	li {font-size: 121%; padding-bottom: 7px;}
+	
+	.firma {font-weight: bold; text-shadow: 5px 5px 3px #999999;} 
+
+
+
+
+
+	    
+	    
