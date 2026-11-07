@@ -106,8 +106,6 @@ public class HomeController {
 	@GetMapping (value = "/contactenos")
 	public String contactenos () {
 	/*************************/	
-		
-		//return "contacFormRespons";  
 		return "pagContacForm";
 	}
 	
@@ -180,11 +178,6 @@ public class HomeController {
 		    e.printStackTrace();
 		}
 	}
-	
-	
-	
-	 
-	
 	
 	
 	@GetMapping (value = "/terminos_y_condic")
